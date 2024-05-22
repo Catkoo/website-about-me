@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: white;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.resume-btn {
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.resume-btn:hover {
+    background-color: #0088cc;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+    text-align: center;
+}
+
+.content {
+    max-width: 600px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.profile-text h2 {
+    color: #00aaff;
+    margin: 10px 0 5px 0;
+}
+
+profile-text h3 {
+    color: #cccccc;
+    font-weight: normal;
+    margin: 5px 0 20px 0;
+}
+
+.profile-text p {
+    color: #cccccc;
+    margin: 0 0 20px 0;
+}
+
+.social-media-section {
+    margin-top: 20px;
+}
+
+.social-media-section h3 {
+    color: #00aaff;
+    margin-bottom: 10px;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
